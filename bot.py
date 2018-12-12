@@ -10,11 +10,12 @@ forecasts_moscow = weather.lookup_by_location('moscow').forecast
 forecasts_swamp = weather.lookup_by_location('petersburg').forecast
 # Здесь с помощью weather-api предзагружаем прогноз погоды,
 # т.к. библиотека не работает через прокси
-
+'''
 os.startfile(os.path.dirname(__file__) + "/Ultrasurf.exe")
 # После чего запускаем прокси. fck da Роскомнадзор
 time.sleep(15)  # Время, чтобы соединение стабилизировалось.
 #  За 10 секунд оно не всегда успевает
+'''
 city = activity = None
 token = '776536658:AAHuHAi28nhFCKyGgASAHWd-063hyItVEmQ'
 bot = telebot.TeleBot(token)
