@@ -208,7 +208,7 @@ def command_handler(message: Message):
     bot.send_message(message.chat.id, 'Поддерживаются команды: /help /start '
                                       'Поддерживаются ключевые слова: '
                                       'выбрать город, дайджест, погода, '
-                                      'куда сходить')
+                                      'куда пойти')
 
 
 @bot.message_handler(commands=['start'])  # Ловец команды start
