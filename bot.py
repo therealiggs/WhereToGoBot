@@ -205,9 +205,9 @@ def act_list(message: Message):
 
 @bot.message_handler(commands=['help'])  # Ловец команлы help
 def command_handler(message: Message):
-    bot.send_message(message.chat.id, 'Поддерживаются команды: /help /start'
-                                      'Поддерживаются ключевые слова:'
-                                      'выбрать город, дайджест, погода,'
+    bot.send_message(message.chat.id, 'Поддерживаются команды: /help /start '
+                                      'Поддерживаются ключевые слова: '
+                                      'выбрать город, дайджест, погода, '
                                       'куда сходить')
 
 
