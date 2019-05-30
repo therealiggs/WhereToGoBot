@@ -1,5 +1,1 @@
-Для правильной работы конкретно на моём провайдере необходима прокси-утилита. Я использую Ultrasurf, для правильных тестов запускайте её вместе с основным кодом бота: .exe файл утилиты присутствует в репозитории.
-
-
-Upd: больше прокси вручную запускать не нужно.
-Upd2: больше прокси не используется.
+My first serious project that I've created for my programming classes at university. It's a Telegram bot that hints you about possible options of spending your spare time. I was always curious about how do bots work, so I've decided to try it out. The bot itself is not very useful as it only uses info I hardcoded into it, but the development gave me a real-life representation of a programmer work. That's my starting point, I suppose.
